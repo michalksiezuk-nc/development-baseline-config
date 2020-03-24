@@ -1,37 +1,100 @@
 # Development tools and baseline configuration
 
-Having solid development toolchain and baseline configuration enables teams to deliver coherent, high quality code.
+Having solid development tool chain and practices enables teams to deliver coherent, high quality code. This repository aims to gather information about developer tools for various languages and workflows, and provide well reviewed configuration baselines.
 
-This repository aims to gather information about developer tools for various languages and workflows. These include:
+## Contents
 
-* JavaScript
-  * ESlint (+ styleguide)
-  * TypeScript
-* EditorConfig
+* Development
+  * JavaScript
+    * Linter and style guide
+    * TypeScript
+    * Build tools
+    * Documentation tools
+  * EditorConfig
+  * Git
+    * Hooks
+    * Commit conventions
+    * Semantic release
+* Testing
+* Other tools
+  * Architecture Decision Records
+* Interesting reads
 
-## JavaScript
+## Development
 
-### ESlint
+### JavaScript
 
-ESlint configuration is extended by Airbnb styleguide base config and few custom rules.
+#### Linter and style guide
 
-More information:
+ESlint configuration provided in this repository is extended by Airbnb style guide base configuration, TypeScript support and few custom rules.
 
 * Integrations (editors, build tools, CLI) https://eslint.org/docs/user-guide/integrations
-* Airbnb Javascript styleguide https://github.com/airbnb/javascript
+* Airbnb JavaScript style guide https://github.com/airbnb/javascript
+* Typescript support https://github.com/typescript-eslint/typescript-eslint
+* Prettier integration https://prettier.io/docs/en/integrating-with-linters.html
 
-### TypeScript
-
-TypeScript brings static type-checking and the latest ECMAScript features.
-
-More information:
+#### TypeScript
 
 * Integration (editors, build tools) https://www.typescriptlang.org/docs/home.html
+* TSlint is now replaced by ESlint
 
-## EditorConfig
+#### Build tools
+
+* Bundlers
+  * Webpack (most common) https://webpack.js.org/
+  * Rollup (best bundle size results) https://rollupjs.org/guide/en/
+  * Parcel (zero-configuration development server) https://parceljs.org/
+* Bundle analyzers
+  * Webpack https://github.com/webpack-contrib/webpack-bundle-analyzer
+  * Rollup https://www.npmjs.com/package/rollup-plugin-visualizer
+  * Parcel https://github.com/gregtillbrook/parcel-plugin-bundle-visualiser
+
+#### Documentation tools
+
+* JSDoc https://jsdoc.app/
+* TSDoc https://github.com/microsoft/tsdoc
+* React Styleguidist https://react-styleguidist.js.org/
+* Docz https://www.docz.site/
+* GitHub Pages https://pages.github.com/
+
+### EditorConfig
 
 EditorConfig helps maintain consistent coding styles across various editors and IDEs.
 
 More information:
 
 * EditorConfig integration https://editorconfig.org/#download
+
+### Git
+
+#### Hooks
+
+* Lefthook https://github.com/Arkweid/lefthook
+* lint-staged https://github.com/okonet/lint-staged
+
+#### Commit conventions
+
+* Commitizen http://commitizen.github.io/cz-cli/
+
+#### Semantic versioning
+
+* Semantic Versioning https://semver.org/
+* semantic-release https://semantic-release.gitbook.io/semantic-release/
+
+## Testing
+* Jest https://jestjs.io/
+* Cypress https://www.cypress.io/
+* React Testing Library https://testing-library.com/
+
+## Other tools
+### Architecture Decision Records
+
+More information:
+
+* ADR Homepage https://adr.github.io/
+* Documenting Architecture Decisions http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+
+## Interesting reads
+
+* ThoughtWorks Technology Radar https://www.thoughtworks.com/radar
+* State of JS https://2019.stateofjs.com/

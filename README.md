@@ -2,13 +2,16 @@
 
 Having solid development toolchain and baseline configuration enables teams to deliver coherent, high quality code.
 
-This repository contains information and baseline configuration for development tools. These include:
+This repository aims to gather information about developer tools for various languages and workflows. These include:
 
-* ESlint
-* TypeScript
+* JavaScript
+  * ESlint (+ styleguide)
+  * TypeScript
 * EditorConfig
 
-## ESlint
+## JavaScript
+
+### ESlint
 
 ESlint configuration is extended by Airbnb styleguide base config and few custom rules.
 
@@ -17,14 +20,13 @@ More information:
 * Integrations (editors, build tools, CLI) https://eslint.org/docs/user-guide/integrations
 * Airbnb Javascript styleguide https://github.com/airbnb/javascript
 
-## TypeScript
+### TypeScript
 
 TypeScript brings static type-checking and the latest ECMAScript features.
 
 More information:
 
 * Integration (editors, build tools) https://www.typescriptlang.org/docs/home.html
-
 
 ## EditorConfig
 

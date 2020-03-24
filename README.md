@@ -1,3 +1,6 @@
-# ESlint baseline config
+# Development baseline configuration
 
-This repository contains baseline config for ESlint with TypeScript support and Airbnb defaults.
+This repository contains information and baseline configuration for development tools. These include:
+* ESlint
+* TypeScript
+* EditorConfig

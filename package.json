@@ -1,22 +1,18 @@
 {
   "name": "eslint-baseline-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Development baseline configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michalksiezuk-nc/eslint-baseline-config.git"
+    "url": "git@github.com:michalksiezuk-nc/development-baseline-config.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/michalksiezuk-nc/eslint-baseline-config/issues"
-  },
-  "homepage": "https://github.com/michalksiezuk-nc/eslint-baseline-config#readme",
+  "keywords": ["eslint", "configuration", "editorconfig"],
+  "author": "Michał Księżuk <michal.ksiezuk@nordcloud.com>",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",

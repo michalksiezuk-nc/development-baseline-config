@@ -10,6 +10,7 @@ Having solid development tool chain and practices enables teams to deliver coher
     * TypeScript
     * Build tools
     * Documentation tools
+  * CSS
   * EditorConfig
   * Git
     * Hooks
@@ -57,6 +58,12 @@ ESlint configuration provided in this repository is extended by Airbnb style gui
 * Docz https://www.docz.site/
 * GitHub Pages https://pages.github.com/
 
+### CSS
+
+* PostCSS https://postcss.org/
+* postcss-preset-env https://preset-env.cssdb.org/
+* stylelint https://stylelint.io/
+
 ### EditorConfig
 
 EditorConfig helps maintain consistent coding styles across various editors and IDEs.
@@ -70,26 +77,27 @@ More information:
 #### Hooks
 
 * Lefthook https://github.com/Arkweid/lefthook
+* Husky https://github.com/typicode/husky
 * lint-staged https://github.com/okonet/lint-staged
 
 #### Commit conventions
 
+* Conventional Commits https://www.conventionalcommits.org/
 * Commitizen http://commitizen.github.io/cz-cli/
 
 #### Semantic versioning
 
 * Semantic Versioning https://semver.org/
 * semantic-release https://semantic-release.gitbook.io/semantic-release/
+* Standard Version https://github.com/conventional-changelog/standard-version
 
 ## Testing
 * Jest https://jestjs.io/
 * Cypress https://www.cypress.io/
-* React Testing Library https://testing-library.com/
+* Testing Library https://testing-library.com/
 
 ## Other tools
 ### Architecture Decision Records
-
-More information:
 
 * ADR Homepage https://adr.github.io/
 * Documenting Architecture Decisions http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions

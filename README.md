@@ -10,6 +10,7 @@ Having solid development tool chain and practices enables teams to deliver coher
     * TypeScript
     * Build tools
     * Documentation tools
+    * Best practices
   * CSS
   * EditorConfig
   * Git
@@ -57,6 +58,10 @@ ESlint configuration provided in this repository is extended by Airbnb style gui
 * React Styleguidist https://react-styleguidist.js.org/
 * Docz https://www.docz.site/
 * GitHub Pages https://pages.github.com/
+
+#### Best practices
+
+* node.js best practices https://github.com/goldbergyoni/nodebestpractices
 
 ### CSS
 
